@@ -15,10 +15,10 @@ const Home = () => {
             <hr />
             <p>Javascript | React | React Native | Angular | VueJs | NodeJs</p>
             <div className = "social-links mdl-layout--large-screen-only">
-              <a>
+              <a href = "https://github.com/luisnvf7" target = "_blank" >
                 <i className="fa fa-github" aria-hidden="true"></i>
               </a>
-              <a>
+              <a href = "https://www.linkedin.com/in/luis-villalobos-5b69181b4/" target = "_blank">
                 <i className="fa fa-linkedin" aria-hidden="true"></i>
               </a>
               <a>
