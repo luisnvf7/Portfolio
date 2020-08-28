@@ -17,12 +17,12 @@ const Navbar = () => {
                 <Link to = "/Contactme">Contact me</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer className = "mdl-layout--small-screen-only" title="Title">
             <Navigation>
-                <a href="#">Home</a>
-                <a href="#">About me</a>
-                <a href="#">Projects</a>
-                <a href="#">Contact me</a>
+                <Link to = "/">Home</Link>
+                <Link to = "/Aboutme">About me</Link>
+                <Link to = "/Projects">Projects</Link>
+                <Link to = "/Contactme">Contact me</Link>
             </Navigation>
         </Drawer>
         <Content>

@@ -14,7 +14,7 @@ const Home = () => {
             <h1>Full Stack Web Developer</h1>
             <hr />
             <p>Javascript | React | React Native | Angular | VueJs | NodeJs</p>
-            <div className = "social-links">
+            <div className = "social-links mdl-layout--large-screen-only">
               <a>
                 <i className="fa fa-github" aria-hidden="true"></i>
               </a>

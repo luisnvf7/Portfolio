@@ -17,8 +17,7 @@ background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, F
 }
 
 .avatar-img {
-    height: 250px;
-    padding-top: 5em;
+    height: 200px;
 }
 
 .banner-text {
@@ -30,7 +29,7 @@ background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, F
 }
 
 .banner-text h1 {
-    font-size: 66px;
+    font-size: 61px;
     font-weight: bold;
     color: white;
     text-align: center;
@@ -66,7 +65,7 @@ background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, F
     text-align: center;
     justify-content: center;
     width: 80%;
-    height: 550px;
+    height: 100px;
     background: white;
     color: black;
     margin-bottom: 20px;
@@ -83,11 +82,16 @@ background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, F
 
 .contact-grid hr {
     border-top: 5px dotted black;
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
 
 .contact-list i {
     font-size: 50px;
     padding-right: 5rem;
+}
+
+.resume-right-col {
+    background: #27221F;
+    color: white;
 }

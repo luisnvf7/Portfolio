@@ -20,14 +20,31 @@ const Contactme = () => {
           <div className = "contact-list">
           <List>
               <ListItem>
-                  <ListItemContent style = {{fontSize: '25px', fontFamily: 'Anton' }}>
+                  <ListItemContent style = {{fontSize: '23px', fontFamily: 'Anton' }}>
                   <i className="fa fa-whatsapp" aria-hidden="true"></i>
                   +58 4120685806
                   </ListItemContent>
               </ListItem>
+              <ListItem>
+                  <ListItemContent style = {{fontSize: '23px', fontFamily: 'Anton' }}>
+                  <i className="fa fa-envelope" aria-hidden="true"></i>
+                    luisvillalobos.felipe@gmail.com
+                  </ListItemContent>
+              </ListItem>
+              <ListItem>
+                  <ListItemContent style = {{fontSize: '23px', fontFamily: 'Anton' }}>
+                  <i className="fa fa-slack" aria-hidden="true"></i>
+                    luisnazario2310@gmail.com
+                  </ListItemContent>
+              </ListItem>
+              <ListItem>
+                  <ListItemContent style = {{fontSize: '23px', fontFamily: 'Anton' }}>
+                  <i className="fa fa-telegram" aria-hidden="true"></i>
+                    luisnvf7
+                  </ListItemContent>
+              </ListItem>
             </List>
           </div>
-            
         </Cell>
       </Grid>
     </div>
