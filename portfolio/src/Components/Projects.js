@@ -20,12 +20,10 @@ const Projects = () => {
           </CardText>
           <CardActions border>
               <Button onClick = {() => window.open('https://github.com/luisnvf7/GraphqlReact')} colored>Github</Button>
-              <Button colored>Live on Heroku</Button>
           </CardActions>
         </Card>
           </Cell>
         </Grid>
-      
       )
     } else if (activeTab == 1) {
       return (
