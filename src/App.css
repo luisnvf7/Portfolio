@@ -18,7 +18,8 @@ background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, F
 }
 
 .avatar-img {
-    height: 200px;
+    height: 230px;
+    padding-top: 2em;
 }
 
 .banner-text {
