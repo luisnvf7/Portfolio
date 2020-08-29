@@ -11,7 +11,7 @@ const Navbar = () => {
     <Layout>
         <Header className = "header-color" title="My Portfolio" scroll>
             <Navigation>
-                <Link to = "/">Home</Link>
+                <Link to = "/Portfolio">Home</Link>
                 <Link to = "/Aboutme">About me</Link>
                 <Link to = "/Projects">Projects</Link>
                 <Link to = "/Contactme">Contact me</Link>
@@ -19,7 +19,7 @@ const Navbar = () => {
         </Header>
         <Drawer className = "mdl-layout--small-screen-only" title="Title">
             <Navigation>
-                <Link to = "/">Home</Link>
+                <Link to = "/Portfolio">Home</Link>
                 <Link to = "/Aboutme">About me</Link>
                 <Link to = "/Projects">Projects</Link>
                 <Link to = "/Contactme">Contact me</Link>
